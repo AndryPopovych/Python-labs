@@ -22,23 +22,41 @@
 
 Приклади використання:
 print(check_truth(True, False, True)) # True
+
 print(logical_equivalence(True, True)) # True
+
 print(logical_equivalence(True, False)) # False
+
 print(xor(True, False)) # True
+
 print(xor(True, True)) # False
+
 print(greet(True)) # Hello, World!
+
 print(greet(False)) # Goodbye, World!
+
 print(nested_condition(3, 3, 3)) # Всі однакові
+
 print(nested_condition(3, 4, 5)) # Всі різні
+
 print(count_true([True, False, True, False, True])) # 3
+
 print(parity(3)) # False (двійкове 11)
+
 print(majority_vote(True, True, False)) # True
+
 print(switch(True)) # False
+
 print(ternary_check(True, "Так", "Ні")) # Так
+
 print(validate(True, False, True)) # True
+
 print(chain_check(1, 2, 3)) # Зростає
+
 print(chain_check(3, 2, 1)) # Спадає
+
 print(filter_true([True, False, True, False])) # [True, True]
+
 print(multiplexer(False, False, True, 10)) # 5
 
 Результати:
