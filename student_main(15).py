@@ -1,5 +1,4 @@
 import re
-
 def clean_data(data):
     if isinstance(data, str):
         data = data.split(',')
