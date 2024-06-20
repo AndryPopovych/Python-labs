@@ -1,6 +1,5 @@
 import itertools
 import math
-
 # Task 1: Generator to iterate over a list of numbers
 def number_generator(numbers):
     for number in numbers:
